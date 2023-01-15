@@ -12,8 +12,7 @@ import secrets
 import datetime
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 
-#token = '5484443497:AAGNv3JDqCFMDMt0SLEVZXBv39kH3GKeUPs'
-token = '5136783035:AAFxDeRpBQhLBsKBHfg0DoYhgQIKeTarQzo'
+token = '****************'
 bot = Bot(token)
 dp = Dispatcher(bot, storage=MemoryStorage())
 scheduler = AsyncIOScheduler()
